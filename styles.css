@@ -1,0 +1,26 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carousel.css);
+@import url(styles/artists.css);
+@import url(styles/contact.css);
+@import url(styles/footer.css);
+
+:root {
+    --cor-de-fundo: #D9D9D9;
+    --branco: #FFFFFF;
+    --roxo-claro: #8A2EA0;
+    --roxo-degrade: linear-gradient(180deg, #7B009A 0%, rgba(168, 34, 206, 0.54) 54.17%, rgba(113, 0, 154, 0.7) 90.62%);;
+    --roxo-escuro: #410253;
+    --roxo-botao: #5B0072;
+    --roxo-muito-claro: #CC90CD;
+
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Comforter Brush', cursive;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

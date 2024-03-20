@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple U</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__button">
+            <label for="menu" class="container__label">
+                <span class="header__menu container__image"></span>
+            </label>
+            <ul class="menu-list">
+                <li class="menu-list__title">Categorias</li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Artistas</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Músicas</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Fotos</a>
+                </li>
+            </ul>
+            <img src="img/p-u-logo.svg" alt="Logo do BTS" class="container__image">
+            <h1 class="container__title">Purple + U</h1>
+        </div>
+        <ul class="options">
+            <input type="checkbox" id="menu-options" class="options__button">
+            <label for="menu-options" class="options__label">
+                <li class="options__item">Categorias</li>
+            </label>
+            <ul class="menu-list">
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Artistas</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Músicas</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Fotos</a>
+                </li>
+            </ul>
+            <li class="options__item"><a href="#" class="options__link">Favoritos</a></li>
+        </ul>
+        <div class="container">
+            <a href="#" class="container__link">
+                <img src="img/favoritos.svg" alt="Meus Favoritos" class="container__image container__image--transparent">
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/usuario.svg" alt="Meu perfil" class="container__image">
+                <p class="container__text">Meu Perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__title">Conheça o BTS</h2>
+        <p class="banner__text">Banda coreana, formada por 7 membros e com diversas músicas que conquistou ouvintes do mundo inteiro.</p>
+        <input type="button" value="Saiba Mais" class="banner__button">
+    </section>
+    <section class="carousel">
+        <h2 class="carousel__title">Membros</h2>
+        <div class="carousel-container">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/rm.svg" alt="Namjoon"></div>
+                    <div class="swiper-slide"><img src="img/jin.svg" alt="Jin"></div>
+                    <div class="swiper-slide"><img src="img/suga.svg" alt="Suga"></div>
+                    <div class="swiper-slide"><img src="img/jhope.svg" alt="J-Hope"></div>
+                    <div class="swiper-slide"><img src="img/jimin.svg" alt="Jimin"></div>
+                    <div class="swiper-slide"><img src="img/v.svg" alt="V"></div>
+                    <div class="swiper-slide"><img src="img/jk.svg" alt="Jungkook"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="card">
+                <img src="img/bts.svg" alt="Membros do BTS abraçados" class="card__image">
+                <input type="button" value="Conheça cada membro" class="card__button">
+            </div>
+        </div>
+    </section>
+    <section class="carousel">
+        <h2 class="carousel__title">Mais tocados no spotify</h2>
+        <div class="carousel-container">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/proof.svg" alt="Proof"></div>
+                    <div class="swiper-slide"><img src="img/love-yoursel-answer.svg" alt="Love Yourself Answer"></div>
+                    <div class="swiper-slide"><img src="img/map-of-soul-7.svg" alt="Map od the Soul: 7"></div>
+                    <div class="swiper-slide"><img src="img/be.svg" alt="Be"></div>
+                    <div class="swiper-slide"><img src="img/love-yoursel-tear.svg" alt="Love Yourself Tear"></div>
+                    <div class="swiper-slide"><img src="img/young-forever.svg" alt="Young Forever"></div>
+                    <div class="swiper-slide"><img src="img/you-never-walk-alone.svg" alt="You Never Walk Alone"></div>
+                    <div class="swiper-slide"><img src="img/map-of-soul-persona.svg" alt="Map of the Soul: Persona"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="card">
+                <div class="card__description">
+                    <div class="description">
+                        <h2 class="description__title">Lançado Recentemente</h2>
+                        <p class="description__text">Proof é um álbum antológico do BTS, marcando o fim de um capítulo e o início de outro.</p>
+                    </div>
+                    <img src="img/proof.svg" alt="Capa do álbum proof" class="description__image ">
+                </div>
+                <div class="card__buttons">
+                    <input type="button" value="Escute agora" class="description__button">
+                    <img src="img/favoritos.svg" alt="Meus Favoritos" class="description__button-fav">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="artists">
+        <h2 class="artists__title">Quem viu BTS também viu...</h2>
+        <ul class="artists__list">
+            <li class="artists__item">
+                <a href="#" class="artists__link">Blackpink</a>
+            </li>
+            <li class="artists__item">
+                <a href="#" class="artists__link">GOT7</a>
+            </li>
+            <li class="artists__item">
+                <a href="#" class="artists__link">Twice</a>
+            </li>
+            <li class="artists__item">
+                <a href="#" class="artists__link">EXO</a>
+            </li>
+            <li class="artists__item">
+                <a href="#" class="artists__link">Mamamoo</a>
+            </li>
+            <li class="artists__item">
+                <a href="#" class="artists__link">TXT</a>
+            </li>
+        </ul>
+    </section>
+    <section class="contact">
+        <div class="contact-container">
+            <h2 class="contact__title">Fique por dentro das novidades!</h2>
+            <p class="contact__text">Cadastre-se para receber informações dos seus artistas coreanos favoritos</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contact__email">
+    </section>
+
+    <hr/>
+
+    <footer class="footer">
+        <div>
+            <h2 class="footer__title">Amanda</h2>
+            <h3 class="footer__subtitle">Baseado no curso da Alura, Mobile First</h3>
+        </div>
+        <ul class="footer-list">
+            <li class="footer-list__item">Contato</li>
+            <li class="footer-list__item">
+                <img src="img/git-logo.svg" alt="Logo do GitHub">
+                <a href="https://github.com/amanda-portella" class="footer-list__link">amanda-portella</a>
+            </li>
+            <li class="footer-list__item">
+                <img src="img/linkedin.svg" alt="Logo do Linkedin">
+                <a href="https://www.linkedin.com/in/amanda-martins-890b01202/" class="footer-list__link">Amanda Martins</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 2,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+</html>

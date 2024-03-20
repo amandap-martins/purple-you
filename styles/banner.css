@@ -1,0 +1,52 @@
+.banner {
+    background: var(--roxo-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner__text {
+    font-weight: 500;
+    margin: 1.5em 0;
+}
+
+.banner__button {
+    border-radius: 10px;
+    background-color: var(--roxo-botao);
+    padding: 1em 2em;
+    color: var(--branco);
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .banner {
+        padding: 3em 0;
+    }
+
+    .banner__title {
+        font-size: 32px;
+    }
+
+    .banner__text {
+        font-size: 24px;
+        margin: 1.5em 5em;
+    }
+
+    .banner__button {
+        width: 35%;
+        font-size: 24px;
+    }
+
+    .banner__button:hover {
+        color: var(--roxo-claro);
+        background-color: var(--branco);
+    }
+}
